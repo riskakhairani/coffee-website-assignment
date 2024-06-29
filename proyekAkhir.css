@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: black;
+    color: white;
+    border-bottom: 4px solid orange;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+h1{
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.menu{
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+.menu li{
+    border-left: 2px solid orange;
+    border-right: 2px solid orange;
+    padding-top: 25px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.menu li a:hover{
+    background-color: orange;
+    color: black;
+}
+
+#home{
+    background-image: url(Asset/home.png);
+    height: 30rem;
+    color: white;
+    padding-top: 100px;
+}
+
+.introduction{
+    padding-left: 700px;
+    padding-right: 50px;
+    padding-top: 180px;
+}
+
+.komen{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.komen > h3{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+
+#menu > h2, #order > h2{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+#menu > h2{
+    padding-left: 20px;
+}
+
+.menuList{
+    display: flex;
+    width: 600px;
+    height: 520px;
+    overflow: auto;
+}
+
+.menuRight, .menuLeft{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.blackCoffe, .espresso, .americano, .flatWhite, .mochaLatte, .matchaLatte, .cappucino, .frappeCoffe{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.espresso, .matchaLatte, .americano, .cappucino, .flatWhite, .frappeCoffe{
+    margin-top: 20px;
+}
+
+.blackCoffe:hover, .espresso:hover, .americano:hover, .flatWhite:hover, .mochaLatte:hover, .matchaLatte:hover, .cappucino:hover, .frappeCoffe:hover{
+    transform: scale(1.05);
+}
+
+#order{
+    padding-left: 20px;
+}
+
+fieldset{
+    padding: 10px;
+}
+
+fieldset legend, fieldset fieldset legend{
+    padding-top: 10px;
+}
+
+.data > td, .jenis > td{
+    padding: 2px;
+}
+
+.data > td input{
+    width: 300px;
+}
+
+.pesan{
+    text-align: center;
+}
+
+.pesann{
+    padding: 5px 240px;
+    font-size: 15px;
+}
+
+#contact{
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer > h2{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style : normal;
+    font-size: 30px;
+}
+
+.anggota{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.admin > img{
+    border-radius: 50%;
+}
+
+.admin{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 10%;
+    margin: 0px 50px;
+    transition: transform 0.3s;
+}
+
+.admin:hover{
+    transform: scale(1.05);
+}
+
+.anggota a i{
+    color: white;
+    font-size: 50px;
+}
